@@ -1,0 +1,35 @@
+.intro h1  {
+   background-image: linear-gradient(red 10%, yellow 50%, blue 95%) ;
+   -webkit-background-clip: text;
+   background-clip: text;
+   -webkit-text-fill-color: transparent;
+   font-weight: 600;
+}
+
+.textIntro {
+   
+        display: block;
+        color: #000;
+        background-image: none;
+        -webkit-text-fill-color: currentColor;
+     
+}
+
+h4 {
+    color: orange;
+    background: linear-gradient(#ADD8E6 50%, ADD8E6 65% );
+}
+
+.enlace {
+    text-decoration: none;
+    color: green;
+    font-size: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+    
+}
+
+.botonPrincipal {
+    
+}
+
