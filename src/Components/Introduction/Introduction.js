@@ -15,7 +15,7 @@ export default function Introduction() {
             </h4>
               <Row className='justify-content-center'>
             <Col >
-              <Button variant="success" className='botonPrincipal  p-3 m-2' onClick={()=>console.log("click")} ><i>Get in touch</i> </Button>
+              <Button variant="warning" className='botonPrincipal  p-3 m-2' onClick={()=>console.log("click")} ><i>Get in touch</i> </Button>
             </Col>
             <Col className='text-end'>
               <a className='enlace' href='dynamic-form'><b>Start to create</b> <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevrons-right" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00b341" fill="none" stroke-linecap="round" stroke-linejoin="round">

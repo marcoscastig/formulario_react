@@ -1,15 +1,15 @@
 .intro h1  {
-   background-image: linear-gradient(red 10%, yellow 50%, blue 95%) ;
-   -webkit-background-clip: text;
-   background-clip: text;
-   -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(yellow,red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: tomato;  
    font-weight: 600;
 }
 
 .textIntro {
    
         display: block;
-        color: #000;
+        color: rgb(192, 205, 206);
         background-image: none;
         -webkit-text-fill-color: currentColor;
      
@@ -22,7 +22,7 @@ h4 {
 
 .enlace {
     text-decoration: none;
-    color: green;
+    color: rgba(255, 166, 0, 0.863);
     font-size: 900;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: oblique;
@@ -30,6 +30,9 @@ h4 {
 }
 
 .botonPrincipal {
-    
+
 }
 
+body {
+    background-color: black;
+}

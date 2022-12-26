@@ -1,0 +1,9 @@
+body {
+    background-color: black;
+}
+.tittle{
+    background: -webkit-linear-gradient(yellow,red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: tomato;  
+}
