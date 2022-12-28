@@ -51,7 +51,7 @@ export default function DynamicForm() {
   )
 };
 
-function getPageByStep (step,getStep){
+function getPageByStep (step,setStep){
     if(step===1){
         return <FirstStep/>
     }
@@ -59,6 +59,6 @@ function getPageByStep (step,getStep){
         return <SecondStep/>
     }
     else if(step===3){
-       return <ThirdStep/>
+       return <ThirdStep setStep={setStep}/>
     }
 }

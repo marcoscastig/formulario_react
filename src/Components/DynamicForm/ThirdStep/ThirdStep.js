@@ -1,6 +1,12 @@
-import { Col, Container, FloatingLabel, Form, Row } from "react-bootstrap";
+import { useState } from "react";
+import { Col, Container, FloatingLabel, Form, Row, Modal } from "react-bootstrap";
+import Resume from "../Resume/Resume";
 import './ThirdStep.css'
-export default function ThirdStep() {
+
+
+
+export default function ThirdStep({setStep}) {
+  const [modal, setModal] = useState(false)
 
   const onChangeComment = e=>{
     const comment = e.target.value
@@ -26,11 +32,15 @@ export default function ThirdStep() {
           </Col>
         </Row>
         <div className="send-form">
-          <p className="result p-3" onClick={()=>console.log("result")}>
+          <p className="result p-3" onClick={()=>setModal(true)}>
             View result 🏆
           </p>
         </div>
       </Container>
+      {modal && (
+        <Resume showModal={modal} setModal={setModal} setStep={setStep}/>
+      )}
     </div>
   )
 }
+
