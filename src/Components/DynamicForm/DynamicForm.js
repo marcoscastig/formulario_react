@@ -1,4 +1,4 @@
-import { Col, Container,Row } from "react-bootstrap"
+import { Container,Row } from "react-bootstrap"
 import { useState } from "react"
 import  "./DynamicForm.css"
 import FirstStep from "../FirstStep/FirstStep"

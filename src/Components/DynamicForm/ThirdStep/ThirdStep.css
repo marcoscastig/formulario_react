@@ -1,0 +1,14 @@
+.send-form {
+    justify-content: center;
+    display: flex;
+  }
+  
+  .send-form .result {
+    margin-top: 10px;
+    background: linear-gradient(to right, grey, black );
+    border-radius: 10px;
+    color: rgb(233, 218, 8);
+    font-weight: 600;
+    cursor: pointer;
+    
+  }
